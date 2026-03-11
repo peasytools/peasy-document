@@ -6,9 +6,9 @@
 
 Pure Python document conversion library with 10 conversion functions across 6 formats — Markdown, HTML, CSV, JSON, YAML, and plain text. Convert between document formats with frozen dataclass results, full conversion metadata, and only one lightweight dependency (`markdown`). Handles strings, bytes, and file paths uniformly through a single `TextInput` type, so you never have to worry about I/O boilerplate.
 
-Built from the document conversion engine behind [PeasyDocument](https://peasydocument.com), which provides interactive browser-based tools for [Markdown to HTML conversion](https://peasydocument.com/tools/markdown-to-html/), [CSV to JSON transformation](https://peasydocument.com/tools/csv-to-json/), and [HTML to Markdown extraction](https://peasydocument.com/tools/html-to-markdown/). The library covers 10 conversion paths with sub-millisecond performance for typical documents.
+Built from the document conversion engine behind [PeasyDocument](https://peasytools.com), which provides interactive browser-based tools for Markdown to HTML conversion, CSV to JSON transformation, and HTML to Markdown extraction. The library covers 10 conversion paths with sub-millisecond performance for typical documents.
 
-> **Try the interactive tools at [peasydocument.com](https://peasydocument.com)** — [Markdown to HTML](https://peasydocument.com/tools/markdown-to-html/), [CSV to JSON](https://peasydocument.com/tools/csv-to-json/), [HTML to Text](https://peasydocument.com/tools/html-to-text/), [JSON to YAML](https://peasydocument.com/tools/json-to-yaml/), [CSV to Markdown Table](https://peasydocument.com/tools/csv-to-markdown/)
+> **Try the interactive tools at [peasytools.com](https://peasytools.com)** — document conversion for Markdown, HTML, CSV, JSON, and YAML formats.
 
 <p align="center">
   <img src="demo.gif" alt="peasy-document demo — Markdown to HTML, CSV to JSON conversion in Python REPL" width="800">
@@ -127,7 +127,7 @@ result = markdown_to_html(Path("README.md"))
 result = markdown_to_html(b"# Binary input works too")
 ```
 
-Learn more: [Markdown to HTML Tool](https://peasydocument.com/tools/markdown-to-html/) · [Markdown Syntax Guide](https://peasydocument.com/guides/markdown-syntax/) · [CommonMark Specification](https://spec.commonmark.org/)
+Learn more: [PeasyDocument](https://peasytools.com) · [CommonMark Specification](https://spec.commonmark.org/)
 
 ### HTML Processing and Extraction
 
@@ -181,7 +181,7 @@ print(result.content)
 # <p>Second paragraph.<br>With a line break.</p>
 ```
 
-Learn more: [HTML to Text Tool](https://peasydocument.com/tools/html-to-text/) · [HTML to Markdown Tool](https://peasydocument.com/tools/html-to-markdown/) · [HTML Entity Reference](https://peasydocument.com/guides/html-entities/)
+Learn more: [PeasyDocument](https://peasytools.com) · [Developer Docs](https://peasytools.com/developers/)
 
 ### CSV and JSON Transformation
 
@@ -220,7 +220,7 @@ result = json_to_csv('[{"a": 1, "b": 2}, {"b": 3, "c": 4}]')
 # → a,b,c header with empty cells where keys are missing
 ```
 
-Learn more: [CSV to JSON Tool](https://peasydocument.com/tools/csv-to-json/) · [JSON to CSV Tool](https://peasydocument.com/tools/json-to-csv/) · [RFC 4180 CSV Standard](https://datatracker.ietf.org/doc/html/rfc4180)
+Learn more: [PeasyDocument](https://peasytools.com) · [RFC 4180 CSV Standard](https://datatracker.ietf.org/doc/html/rfc4180)
 
 ### JSON to YAML Conversion
 
@@ -262,7 +262,7 @@ print(result.content)
 # url: "https://example.com:8080/path#section"
 ```
 
-Learn more: [JSON to YAML Tool](https://peasydocument.com/tools/json-to-yaml/) · [YAML vs JSON Guide](https://peasydocument.com/guides/yaml-vs-json/) · [YAML 1.2 Specification](https://yaml.org/spec/1.2/)
+Learn more: [PeasyDocument](https://peasytools.com) · [YAML 1.2 Specification](https://yaml.org/spec/1.2/)
 
 ### Table Formatting and Rendering
 
@@ -311,7 +311,7 @@ print(result.content)
 # </table>
 ```
 
-Learn more: [CSV to Markdown Tool](https://peasydocument.com/tools/csv-to-markdown/) · [CSV to HTML Tool](https://peasydocument.com/tools/csv-to-html/) · [Table Formatting Guide](https://peasydocument.com/guides/table-formatting/)
+Learn more: [PeasyDocument](https://peasytools.com) · [OpenAPI Spec](https://peasytools.com/api/openapi.json)
 
 ## Command-Line Interface
 
@@ -377,11 +377,10 @@ All functions accept `TextInput` (`str | bytes | Path`) and return `ConversionRe
 
 ## Learn More About Document Conversion
 
-- **Tools**: [Markdown to HTML](https://peasydocument.com/tools/markdown-to-html/) · [CSV to JSON](https://peasydocument.com/tools/csv-to-json/) · [HTML to Text](https://peasydocument.com/tools/html-to-text/) · [JSON to YAML](https://peasydocument.com/tools/json-to-yaml/) · [HTML to Markdown](https://peasydocument.com/tools/html-to-markdown/)
-- **Tables**: [CSV to Markdown Table](https://peasydocument.com/tools/csv-to-markdown/) · [CSV to HTML Table](https://peasydocument.com/tools/csv-to-html/) · [JSON to CSV](https://peasydocument.com/tools/json-to-csv/)
-- **Guides**: [Markdown Syntax Guide](https://peasydocument.com/guides/markdown-syntax/) · [YAML vs JSON](https://peasydocument.com/guides/yaml-vs-json/) · [Table Formatting](https://peasydocument.com/guides/table-formatting/)
+- **Home**: [PeasyDocument](https://peasytools.com)
+- **API**: [Developer Docs](https://peasytools.com/developers/) · [OpenAPI Spec](https://peasytools.com/api/openapi.json)
 - **Standards**: [CommonMark Spec](https://spec.commonmark.org/) · [RFC 4180 (CSV)](https://datatracker.ietf.org/doc/html/rfc4180) · [RFC 8259 (JSON)](https://datatracker.ietf.org/doc/html/rfc8259) · [YAML 1.2](https://yaml.org/spec/1.2/)
-- **npm**: [@aspect-build/peasy-document](https://www.npmjs.com/package/peasy-document-js) (TypeScript version)
+- **npm**: [peasy-document](https://www.npmjs.com/package/peasy-document) (TypeScript version)
 
 ## Peasy Developer Tools
 
@@ -389,7 +388,7 @@ Part of the [Peasy Tools](https://peasytools.com) developer tools ecosystem.
 
 | Package | PyPI | Description |
 |---------|------|-------------|
-| **peasy-document** | [PyPI](https://pypi.org/project/peasy-document/) | **Document conversion — Markdown, HTML, CSV, JSON, YAML** — [peasydocument.com](https://peasydocument.com) |
+| **peasy-document** | [PyPI](https://pypi.org/project/peasy-document/) | **Document conversion — Markdown, HTML, CSV, JSON, YAML** — [peasytools.com](https://peasytools.com) |
 | peasy-pdf | [PyPI](https://pypi.org/project/peasy-pdf/) | PDF manipulation and conversion — [peasypdf.com](https://peasypdf.com) |
 | peasy-image | [PyPI](https://pypi.org/project/peasy-image/) | Image format conversion and optimization — [peasyimage.com](https://peasyimage.com) |
 | peasytext | [PyPI](https://pypi.org/project/peasytext/) | Text analysis and transformation — [peasytext.com](https://peasytext.com) |
