@@ -3,6 +3,7 @@
 [![PyPI version](https://agentgif.com/badge/pypi/peasy-document/version.svg)](https://pypi.org/project/peasy-document/)
 [![Python](https://img.shields.io/pypi/pyversions/peasy-document)](https://pypi.org/project/peasy-document/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![GitHub stars](https://agentgif.com/badge/github/peasytools/peasy-document/stars.svg)](https://github.com/peasytools/peasy-document)
 
 Pure Python document conversion library with 10 conversion functions across 6 formats — Markdown, HTML, CSV, JSON, YAML, and plain text. Convert between document formats with frozen dataclass results, full conversion metadata, and only one lightweight dependency (`markdown`). Handles strings, bytes, and file paths uniformly through a single `TextInput` type, so you never have to worry about I/O boilerplate.
 
