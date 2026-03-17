@@ -378,10 +378,10 @@ All functions accept `TextInput` (`str | bytes | Path`) and return `ConversionRe
 
 ## Learn More About Document Conversion
 
-- **Tools**: [Markdown to HTML](https://peasyformats.com/tools/markdown-to-html/) · [CSV to JSON](https://peasyformats.com/tools/csv-to-json/) · [HTML to Markdown](https://peasyformats.com/tools/html-to-markdown/) · [All Tools](https://peasyformats.com/)
-- **Guides**: [Markdown Guide](https://peasyformats.com/guides/markdown/) · [CSV Processing Guide](https://peasyformats.com/guides/csv-processing/) · [All Guides](https://peasyformats.com/guides/)
-- **Glossary**: [Markdown](https://peasyformats.com/glossary/markdown/) · [YAML](https://peasyformats.com/glossary/yaml/) · [All Terms](https://peasyformats.com/glossary/)
-- **Formats**: [Markdown](https://peasyformats.com/formats/markdown/) · [CSV](https://peasyformats.com/formats/csv/) · [JSON](https://peasyformats.com/formats/json/) · [All Formats](https://peasyformats.com/formats/)
+- **Tools**: [Markdown to HTML](https://peasyformats.com/doc/markdown-to-html/) · [CSV to JSON](https://peasyformats.com/doc/csv-to-json/) · [HTML to Markdown](https://peasyformats.com/doc/html-to-markdown/) · [All Tools](https://peasyformats.com/)
+- **Guides**: [Markdown Guide](https://peasyformats.com/guides/) · [CSV Processing Guide](https://peasyformats.com/guides/) · [All Guides](https://peasyformats.com/guides/)
+- **Glossary**: [Markdown](https://peasyformats.com/glossary/) · [YAML](https://peasyformats.com/glossary/) · [All Terms](https://peasyformats.com/glossary/)
+- **Formats**: [Markdown](https://peasyformats.com/formats/) · [CSV](https://peasyformats.com/formats/csv/) · [JSON](https://peasyformats.com/formats/json/) · [All Formats](https://peasyformats.com/formats/)
 - **API**: [REST API Docs](https://peasyformats.com/developers/) · [OpenAPI Spec](https://peasyformats.com/api/openapi.json)
 
 ## Also Available
