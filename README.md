@@ -128,7 +128,7 @@ result = markdown_to_html(Path("README.md"))
 result = markdown_to_html(b"# Binary input works too")
 ```
 
-Learn more: [PeasyDocument](https://peasytools.com) · [CommonMark Specification](https://spec.commonmark.org/)
+Learn more: [Markdown to HTML Converter](https://peasyformats.com/doc/markdown-to-html/) · [Markdown vs Rich Text vs Plain Text](https://peasyformats.com/guides/markdown-vs-rich-text-vs-plain-text/) · [How to Convert Markdown to Other Formats](https://peasyformats.com/guides/how-to-convert-markdown-to-other-formats/)
 
 ### HTML Processing and Extraction
 
@@ -182,7 +182,7 @@ print(result.content)
 # <p>Second paragraph.<br>With a line break.</p>
 ```
 
-Learn more: [PeasyDocument](https://peasytools.com) · [Developer Docs](https://peasytools.com/developers/)
+Learn more: [HTML Entities Encoder](https://peasyformats.com/doc/html-entities/) · [Plain Text vs Rich Text vs Markdown](https://peasyformats.com/guides/plain-text-vs-rich-text-vs-markdown/) · [What is MIME Sniffing?](https://peasyformats.com/glossary/mime-sniffing/)
 
 ### CSV and JSON Transformation
 
@@ -221,7 +221,7 @@ result = json_to_csv('[{"a": 1, "b": 2}, {"b": 3, "c": 4}]')
 # → a,b,c header with empty cells where keys are missing
 ```
 
-Learn more: [PeasyDocument](https://peasytools.com) · [RFC 4180 CSV Standard](https://datatracker.ietf.org/doc/html/rfc4180)
+Learn more: [CSV vs JSON vs XML Data Formats](https://peasyformats.com/guides/csv-vs-json-vs-xml/) · [What is TSV?](https://peasyformats.com/glossary/tsv/) · [CSV Format Reference](https://peasyformats.com/formats/csv/)
 
 ### JSON to YAML Conversion
 
@@ -263,7 +263,7 @@ print(result.content)
 # url: "https://example.com:8080/path#section"
 ```
 
-Learn more: [PeasyDocument](https://peasytools.com) · [YAML 1.2 Specification](https://yaml.org/spec/1.2/)
+Learn more: [YAML JSON Converter](https://peasyformats.com/doc/yaml-json-converter/) · [JSON vs YAML vs TOML Configuration Formats](https://peasyformats.com/guides/json-vs-yaml-vs-toml/) · [YAML vs JSON vs TOML Configuration](https://peasyformats.com/guides/yaml-vs-json-vs-toml-configuration/)
 
 ### Table Formatting and Rendering
 
@@ -312,7 +312,7 @@ print(result.content)
 # </table>
 ```
 
-Learn more: [PeasyDocument](https://peasytools.com) · [OpenAPI Spec](https://peasytools.com/api/openapi.json)
+Learn more: [Document Format Interoperability Guide](https://peasyformats.com/guides/document-format-interoperability-guide/) · [What is Metadata Stripping?](https://peasyformats.com/glossary/metadata-stripping/) · [HTML Format Reference](https://peasyformats.com/formats/html/)
 
 ## Command-Line Interface
 
@@ -378,10 +378,10 @@ All functions accept `TextInput` (`str | bytes | Path`) and return `ConversionRe
 
 ## Learn More About Document Conversion
 
-- **Tools**: [Markdown to HTML](https://peasyformats.com/doc/markdown-to-html/) · [CSV to JSON](https://peasyformats.com/doc/csv-to-json/) · [HTML to Markdown](https://peasyformats.com/doc/html-to-markdown/) · [All Tools](https://peasyformats.com/)
-- **Guides**: [Markdown Guide](https://peasyformats.com/guides/) · [CSV Processing Guide](https://peasyformats.com/guides/) · [All Guides](https://peasyformats.com/guides/)
-- **Glossary**: [Markdown](https://peasyformats.com/glossary/) · [YAML](https://peasyformats.com/glossary/) · [All Terms](https://peasyformats.com/glossary/)
-- **Formats**: [Markdown](https://peasyformats.com/formats/) · [CSV](https://peasyformats.com/formats/csv/) · [JSON](https://peasyformats.com/formats/json/) · [All Formats](https://peasyformats.com/formats/)
+- **Tools**: [Markdown to HTML](https://peasyformats.com/doc/markdown-to-html/) · [YAML JSON Converter](https://peasyformats.com/doc/yaml-json-converter/) · [Format Identifier](https://peasyformats.com/doc/format-identifier/) · [MIME Type Lookup](https://peasyformats.com/doc/mime-type-lookup/) · [Base64 Encoder](https://peasyformats.com/doc/base64-encoder/) · [URL Encoder](https://peasyformats.com/doc/url-encoder/) · [HTML Entities](https://peasyformats.com/doc/html-entities/) · [Line Ending Converter](https://peasyformats.com/doc/line-ending-converter/) · [Hex Dump Viewer](https://peasyformats.com/doc/hex-dump-viewer/) · [All Tools](https://peasyformats.com/)
+- **Guides**: [JSON vs YAML vs TOML](https://peasyformats.com/guides/json-vs-yaml-vs-toml/) · [CSV vs JSON vs XML](https://peasyformats.com/guides/csv-vs-json-vs-xml/) · [Text Encoding UTF-8 ASCII](https://peasyformats.com/guides/text-encoding-utf8-ascii/) · [Markdown vs Rich Text vs Plain Text](https://peasyformats.com/guides/markdown-vs-rich-text-vs-plain-text/) · [How to Convert Markdown to Other Formats](https://peasyformats.com/guides/how-to-convert-markdown-to-other-formats/) · [Document Format Interoperability Guide](https://peasyformats.com/guides/document-format-interoperability-guide/) · [YAML vs JSON vs TOML Configuration](https://peasyformats.com/guides/yaml-vs-json-vs-toml-configuration/) · [All Guides](https://peasyformats.com/guides/)
+- **Glossary**: [DOCX](https://peasyformats.com/glossary/docx/) · [EPUB](https://peasyformats.com/glossary/epub/) · [SVG](https://peasyformats.com/glossary/svg/) · [TSV](https://peasyformats.com/glossary/tsv/) · [ODF](https://peasyformats.com/glossary/odf/) · [MIME Sniffing](https://peasyformats.com/glossary/mime-sniffing/) · [File Signature](https://peasyformats.com/glossary/file-signature/) · [Metadata Stripping](https://peasyformats.com/glossary/metadata-stripping/) · [MessagePack](https://peasyformats.com/glossary/messagepack/) · [All Terms](https://peasyformats.com/glossary/)
+- **Formats**: [CSV](https://peasyformats.com/formats/csv/) · [JSON](https://peasyformats.com/formats/json/) · [HTML](https://peasyformats.com/formats/html/) · [Markdown](https://peasyformats.com/formats/md/) · [YAML](https://peasyformats.com/formats/yaml/) · [XML](https://peasyformats.com/formats/xml/) · [TOML](https://peasyformats.com/formats/toml/) · [TXT](https://peasyformats.com/formats/txt/) · [TSV](https://peasyformats.com/formats/tsv/) · [RTF](https://peasyformats.com/formats/rtf/) · [DOCX](https://peasyformats.com/formats/docx/) · [All Formats](https://peasyformats.com/formats/)
 - **API**: [REST API Docs](https://peasyformats.com/developers/) · [OpenAPI Spec](https://peasyformats.com/api/openapi.json)
 
 ## Also Available
