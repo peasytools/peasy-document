@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "peasy-document"
-version = "0.2.1"
+version = "0.2.2"
 description = "Document conversion library — Markdown, HTML, CSV, and JSON transformations with zero heavyweight dependencies."
 readme = "README.md"
 license = "MIT"
