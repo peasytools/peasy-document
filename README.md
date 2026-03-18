@@ -12,7 +12,7 @@ Built from the document conversion engine behind [PeasyDocument](https://peasyto
 > **Try the interactive tools at [peasytools.com](https://peasytools.com)** — document conversion for Markdown, HTML, CSV, JSON, and YAML formats.
 
 <p align="center">
-  <img src="demo.gif" alt="peasy-document demo — Markdown to HTML, CSV to JSON conversion in Python REPL" width="800">
+  <a href="https://agentgif.com/1aaetB23"><img src="https://media.agentgif.com/1aaetB23.gif" alt="peasy-document demo — Markdown to HTML, CSV to JSON conversion in Python REPL" width="800"></a>
 </p>
 
 ## Table of Contents
